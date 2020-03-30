@@ -1,6 +1,6 @@
 # Site settings
 title: COVID-19 Inform
-description: COVID-19 information portal
+description: COVID-19 Information Portal
 baseurl: "/home" 
 url: "https://covid19inform.github.io" 
 
