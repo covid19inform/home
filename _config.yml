@@ -1,0 +1,13 @@
+# Site settings
+title: COVID-19 Inform
+description: COVID-19 information portal
+baseurl: "/home" 
+url: "https://covid19inform.github.io" 
+
+# User settings
+username: COVID-19 Inform
+user_title: COVID-19 information portal
+email: covid19inform@gmail.com
+github_username: covid19inform
+
+exclude: ['package.json', 'src' , 'node_modules']
