@@ -7,7 +7,5 @@ url: "https://covid19inform.github.io"
 # User settings
 username: COVID-19 Inform
 user_title: COVID-19 Information Portal
-email: covid19inform@gmail.com
-github_username: covid19inform
 
 exclude: ['package.json', 'src' , 'node_modules']
