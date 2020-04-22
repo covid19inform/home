@@ -28,12 +28,18 @@
   </div>
 </div>
 
-  <script src='https://meet.jit.si/external_api.js'>
-    const domain = 'meet.jit.si';
-    const options = {
-      roomName: 'JitsiMeetAPIExample',
-      width: 700,
-      height: 700,
-      parentNode: document.querySelector('#meet')};
-       const api = new JitsiMeetExternalAPI(domain, options);
-  </script>
+<script src="https://meet.jit.si/external_api.js"></script>
+        <script>
+            var domain = "meet.jit.si";
+            var options = {
+                roomName: "JitsiMeetAPIExample",
+                width: 700,
+                height: 180,
+                parentNode: undefined,
+                configOverwrite: {},
+                interfaceConfigOverwrite: {
+                    filmStripOnly: true
+                }
+            }
+            var api = new JitsiMeetExternalAPI(domain, options);
+        </script>
